@@ -1,7 +1,7 @@
 import React from "react";
-import img_about1 from "../../public/img_about.JPG"
-import img_about2 from "../../public/img_about.JPG"
-import img_about from "../../public/img_about.JPG"
+import img_about1 from "../../public/img_about.png"
+import img_about2 from "../../public/img_about.png"
+import img_about from "../../public/img_about.png"
 
 export default function About() {
   return (
