@@ -6,7 +6,7 @@ export default function Navbar() {
   const NavbarLinks = [
     { id: 1, name: "Home", link: "#home" },
     { id: 2, name: "About", link: "#about" },
-    { id: 3, name: "Skilss", link: "#skilss" },
+    { id: 3, name: "Skills", link: "#skills" },
     { id: 4, name: "My Projects", link: "#projects" },
   ];
 
@@ -41,13 +41,15 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <button
+          <a
+            href="https://wa.me/6281268044470" // Ganti dengan nomor WA Anda
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex text-white border-2 py-2 px-6 focus:outline-none
-                hover:bg-purple-800 rounded-full text-lg"
+      hover:bg-purple-800 rounded-full text-lg"
           >
-            {" "}
-            Contact{" "}
-          </button>
+            Contact
+          </a>
         </nav>
       </div>
 
@@ -76,13 +78,15 @@ export default function Navbar() {
           </a>
         ))}
         {/*Contact button*/}
-        <button
-          className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800
-                rounded-full text-lg
-                "
+        <a
+          href="https://wa.me/6281268044470" // Ganti dengan nomor WA Anda
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex text-white border-2 py-2 px-6 focus:outline-none
+      hover:bg-purple-800 rounded-full text-lg"
         >
           Contact
-        </button>
+        </a>
       </div>
     </header>
   );
