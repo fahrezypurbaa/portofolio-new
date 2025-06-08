@@ -45,24 +45,23 @@ export default function Projects() {
   const listProjects = [
     {
       image: project1,
-      title: "Portofolio Website 1",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis quam deserunt",
-      link: "",
+      title: "Landing Page untuk rfurniture.id",
+      description: "Website promosi produk furniture buatan lokal.",
+      link: "http://rfurniture.id/",
     },
     {
       image: project2,
-      title: "Portofolio Website 2",
+      title: "E-Commerce Techterrarium",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis quam deserunt",
-      link: "",
+        "Website jual-beli tanaman hias dengan fitur cart dan checkout.",
+      link: "https://techterrarium.com/",
     },
     {
       image: project3,
-      title: "Portofolio Website 3",
+      title: "Landing Page untuk Hiradecon.id",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis quam deserunt",
-      link: "",
+        "Website resmi Hiradecon — perusahaan konstruksi profesional yang siap menghadirkan solusi total untuk proyek.",
+      link: "https://hiradecon.id",
     },
   ];
   return (
@@ -73,10 +72,9 @@ export default function Projects() {
             My <span className="text-purple-400">Projects</span>
           </h1>
           <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            necessitatibus ut consequatur dicta, dolor ipsa culpa soluta
-            repellendus corrupti sequi, iure illo libero voluptates ex nobis
-            iusto dignissimos, incidunt in.
+            Berikut adalah beberapa proyek website yang pernah saya kerjakan.
+            Setiap proyek ini menunjukkan kemampuan saya dalam merancang,
+            mengembangkan, dan mengoptimalkan website sesuai kebutuhan klien.
           </p>
         </header>
       </section>

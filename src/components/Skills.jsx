@@ -11,28 +11,28 @@ const skillsData = [
     image: icon_react,
     title: "React JS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident dolorum, odit quas aspernatur esse repellat iusto est necessitatibus molestias recusandae ea amet repellendus, magnam odio autem alias perspiciatis eum.",
+      "Saya menggunakan React JS untuk membangun antarmuka pengguna yang responsif dan dinamis. Komponen modular dari React sangat membantu dalam menciptakan aplikasi web yang scalable dan mudah untuk dikelola.",
   },
   {
     id: 2,
     image: tailwind,
     title: "Tailwindcss",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident dolorum, odit quas aspernatur esse repellat iusto est necessitatibus molestias recusandae ea amet repellendus, magnam odio autem alias perspiciatis eum.",
+      "Tailwind CSS memungkinkan saya untuk mendesain UI dengan lebih cepat dan konsisten. Utility-first approach dari Tailwind sangat efisien dalam membuat tampilan modern tanpa harus menulis banyak CSS manual.",
   },
   {
     id: 3,
     image: laravel,
     title: "Laravel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident dolorum, odit quas aspernatur esse repellat iusto est necessitatibus molestias recusandae ea amet repellendus, magnam odio autem alias perspiciatis eum.",
+      "Laravel adalah framework andalan saya dalam mengembangkan aplikasi berbasis web yang kompleks. Fitur seperti routing, Eloquent ORM, dan Blade template engine sangat mempercepat proses pengembangan backend yang robust dan terstruktur.",
   },
   {
     id: 4,
     image: php,
     title: "PHP",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident dolorum, odit quas aspernatur esse repellat iusto est necessitatibus molestias recusandae ea amet repellendus, magnam odio autem alias perspiciatis eum.",
+      "Dengan PHP, saya dapat membangun logika backend yang kuat dan dinamis. Saya telah menggunakannya dalam berbagai proyek mulai dari website statis hingga sistem manajemen konten yang kompleks.",
   },
 ];
 
@@ -50,7 +50,10 @@ const SkillBox = ({ image, title, description }) => (
 
 export default function Skilss() {
   return (
-    <section id="skills" className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center text-white px-4 py-10">
+    <section
+      id="skills"
+      className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center text-white px-4 py-10"
+    >
       <div
         className="absolute z-0 w-72 h-36 sm:w-96 sm:h-44 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 top-10 sm:top-28
             left-1/2 transform -translate-x-1/2"
@@ -72,10 +75,9 @@ export default function Skilss() {
             <span className="text-purple-400">Skills</span>
           </h1>
           <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus ipsum sapiente recusandae, quis impedit id. Facilis,
-            inventore. Soluta dolore, temporibus, vel, quos rem aut
-            reprehenderit ex iure minima autem sed.
+            Berikut adalah beberapa keahlian teknis yang saya kuasai dalam
+            pengembangan website. Saya terus mengasah kemampuan ini untuk
+            membangun aplikasi web yang efisien, modern, dan user-friendly.
           </p>
         </header>
         <section

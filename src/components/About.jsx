@@ -1,6 +1,6 @@
 import React from "react";
-import img_about1 from "../../public/img_about.png";
-import img_about2 from "../../public/img_about.png";
+import img_about1 from "../../public/img_about1.png";
+import img_about2 from "../../public/img_about2.png";
 import img_about from "../../public/img_about.png";
 
 export default function About() {
@@ -53,11 +53,14 @@ export default function About() {
               About Me
             </h1>
           </header>
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            reiciendis, similique maxime eaque aliquam cum non nihil minus
-            consequatur. Non dolores nisi aspernatur quia voluptatem soluta
-            expedita architecto, omnis odio.
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed text-justify">
+            Saya adalah seorang Web Developer pemula yang belajar secara
+            otodidak dan terbantu dengan AI dalam proses pengembangan website.
+            Saya percaya bahwa teknologi bisa mempercepat proses kreatif, dan
+            saya terus belajar setiap hari untuk meningkatkan kualitas kerja
+            saya. Saya sudah menyelesaikan beberapa project landing page,
+            e-commerce, dan website Pelatihan K3. Saya terbiasa menggunakan
+            Laravel, HTML, dan CSS.
           </p>
           <footer>
             <button

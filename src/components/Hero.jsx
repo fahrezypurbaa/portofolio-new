@@ -32,17 +32,15 @@ export default function Hero() {
               Frontend Developer
             </h2>
           </header>
-          <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-            voluptatem! Aut, pariatur. Quia a nobis consequatur, eum laboriosam,
-            adipisci accusamus aliquid dolor voluptas mollitia excepturi
-            perspiciatis earum quam totam. Placeat!
+          <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6 text-justify">
+            Halo, saya Ezy 👋 seorang Web Developer yang siap bantu wujudkan website
+            impian Anda. Berpengalaman dalam membuat landing page & website e-commerce.
           </p>
           <div className="flex items-center space-x-4 mb-6">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/fahrezyromeropurba/">
               <img src={linkidn} alt="Linkidn" className="w-11 h-11" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/ezypurba_/">
               <img src={instagram} alt="Instagram" className="w-11 h-11" />
             </a>
           </div>
