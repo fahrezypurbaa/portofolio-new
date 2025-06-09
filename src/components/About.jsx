@@ -1,7 +1,7 @@
 import React from "react";
 import img_about1 from "../../public/img_about1.png";
-import img_about2 from "../../public/img_about2.png";
 import img_about from "../../public/img_about.png";
+import imghero from "../../public/imghero.png";
 
 export default function About() {
   return (
@@ -24,18 +24,18 @@ export default function About() {
             src={img_about1}
             alt="about picture 1"
             className="absolute -top-2 left-5 sm:left-10 transform -translate-y-12 z-20 w-24 h-24 sm:w-32 sm:h-32
-                    rounded-3xl shadow-lg"
+                    rounded-3xl"
           />
           <img
-            src={img_about2}
+            src={imghero}
             alt="about picture 2"
-            className="relative z-10 w-36 h-44 sm:w-40 sm:h-40 md:w-72 md:h-96 rounded-lg shadow-lg"
+            className="relative z-10 w-full max-w-[240px] aspect-[3/4] rounded-3xl"
           />
           <img
             src={img_about}
             alt="about picture"
             className="absolute bottom-0 right-5 sm:right-10 transform translate-y-12 z-10 w-20 h-20 sm:w-32
-          sm:h-32 rounded-3xl shadow-lg"
+          sm:h-32 rounded-3xl"
           />
         </figure>
 

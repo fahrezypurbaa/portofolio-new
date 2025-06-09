@@ -47,7 +47,7 @@ export default function Projects() {
       image: project1,
       title: "Landing Page untuk rfurniture.id",
       description: "Website promosi produk furniture buatan lokal.",
-      link: "http://rfurniture.id/",
+      link: "https://portofolio-new-p2o6.vercel.app/",
     },
     {
       image: project2,
