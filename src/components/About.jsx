@@ -1,7 +1,7 @@
 import React from "react";
 import img_about1 from "../../public/img_about1.png";
 import img_about from "../../public/img_about.png";
-import imghero from "../../public/imghero.png";
+import img_about2 from "../../public/img_about2.png";
 
 export default function About() {
   return (
@@ -27,7 +27,7 @@ export default function About() {
                     rounded-3xl"
           />
           <img
-            src={imghero}
+            src={img_about2}
             alt="about picture 2"
             className="relative z-10 w-full max-w-[240px] aspect-[3/4] rounded-3xl"
           />
@@ -63,12 +63,6 @@ export default function About() {
             Laravel, HTML, dan CSS.
           </p>
           <footer>
-            <button
-              className="inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none
-                hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg"
-            >
-              Learn More
-            </button>
           </footer>
         </article>
       </div>
